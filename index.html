@@ -1,0 +1,52 @@
+<!-- ==============================================================
+
+	Name: Jaron
+	Date: 31/03/2024
+	Email: jco166@uclive.ac.nz
+	Description: This is an interactive map displaying iconic Christchurch attractions and their associated influence on me. Territorial Authorities are displayed
+ in yellow polygons.
+
+============================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CHANGE YOUR MAP TITLE TO SOMETHING BETTER -->
+	<title>Iconic Christchurch Attractions</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+
+	<link rel="stylesheet" href="main.css" />
+
+	
+</head>
+<body>
+
+
+<div id="header">
+	<!-- EDIT THE HEADER HERE -->
+	Iconic Christchurch Attractions
+</div>
+<div id="map"></div>
+
+<div id="description">
+	<!-- EDIT THE DESCRIPTION HERE -->
+	This interactive map displays highlights key Christchurch attractions and the influence they have had on me.
+The hue of the basemap is light green with low saturation applying a colour which has association with the environment while allowing distinction between parks which adopt a darker hue and higher saturation.
+Times New Roman was adopted as the font for the labels on the map due to its aesthetic appeal. Water is represented by a dark blue hue to contrast with land, and to further enhance its aesthetic.
+The yellow hue of the Territorial Authority (TA) polygon is analogous to the green basemap adding to the aesthetic appeal of the map. The TA polygons also have low opacity ensuring the high transparency of the polygons.
+The displayed polygons and popups identify iconic Christchurch with the text describing their significance to me.
+</div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
